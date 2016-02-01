@@ -2074,7 +2074,7 @@ body:not(.post-template) .post-title {
    ================================*/
 
 .post-head.main-header {
-    height: 35vh;  /* originally was 65vh */
+    height: 45vh;  /* originally was 65vh */
     min-height: 180px;
 }
 
