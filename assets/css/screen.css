@@ -2066,6 +2066,80 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   End of file. Animations should be the last thing here. Do not add stuff
-   below this point, or it will probably fuck everything up.
+   End of file. Animations should be the last thing here.
    ========================================================================== */
+
+/* ================================
+	Custom for SND
+   ================================*/
+
+.post-date {
+    display: inline-block;
+    margin-left: 8px;
+    padding-left: 12px;
+    border-left: #d5dbde 1px solid;
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+
+.post-comment-count {
+    display: inline-block;
+    margin-left: 8px;
+    padding-left: 12px;
+    border-left: #d5dbde 1px solid;
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+
+/* ================================
+	Google Site Search
+   ================================*/
+
+/*
+For Google Site Search
+*/
+
+.gsc-adBlock {
+    display: none;
+}
+
+.searchArea {
+    word-wrap: normal;
+}
+
+.searchArea .gsc-search-button {
+    display: none;
+}
+
+.gsc-result .gs-title {
+    height: 1.6em !important;
+}
+
+.searchArea .gsc-search-box .gsc-input>input:focus,
+.gsc-input-box-focus {
+    box-shadow: none;
+}
+
+.searchArea .gsc-input-box {
+    height: auto;
+    margin: 0;
+    padding: 0.25em;
+    border: 2px grey solid;
+}
+
+.searchArea .gsc-input-box table {
+    margin: 0;
+}
+
+.searchArea .gsc-input-box .gsc-input {
+    font-size: 1.5em;
+    background: none !important;
+}
+
+.gsc-adBlockNoHeight {
+    display: none;
+}
+
+.gsc-resultsHeader {
+    display: none;
+}
