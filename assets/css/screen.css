@@ -2073,6 +2073,11 @@ body:not(.post-template) .post-title {
 	Custom for SND
    ================================*/
 
+.post-head.main-header {
+    height: 35vh;  /* originally was 65vh */
+    min-height: 180px;
+}
+
 .post-date {
     display: inline-block;
     margin-left: 8px;
