@@ -17,6 +17,8 @@
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <!-- for syntax highlighting -->
+    <link rel="stylesheet" type="text/css" href="{{asset "css/prism.min.css"}}" />
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -46,6 +48,20 @@
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 
+    <!-- for syntax highlighting -->
+    <script type="text/javascript" src="{{asset "js/prism.min.js"}}"></script>
+    <!-- for github repo widget -->
+    <script type="text/javascript" src="{{asset "js/jquery.githubRepoWidget.min.js"}}"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-73156413-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
     <!-- disqus code begins -->
     <script type="text/javascript">
