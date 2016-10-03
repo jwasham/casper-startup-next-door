@@ -24,3 +24,12 @@ GitHub-jQuery-Repo-Widget, for nice presentation of github repo in a blog post: 
 - casper-startup-next-door/VERSION/partials/loop.hbs
 - casper-startup-next-door/VERSION/default.hbs
 - casper-startup-next-door/VERSION/post.hbs
+- casper-startup-next-door/VERSION/assets/css/screen.css - at end 
+
+## Files added:
+
+- casper-startup-next-door/VERSION/assets/css/prism.min.css
+- casper-startup-next-door/VERSION/assets/css/prism.src.css
+- casper-startup-next-door/VERSION/assets/js/jquery.githubRepoWidget.js
+- casper-startup-next-door/VERSION/assets/js/jquery.githubRepoWidget.min.js
+- casper-startup-next-door/VERSION/assets/js/prism.min.js
