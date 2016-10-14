@@ -445,7 +445,7 @@ margin on the iframe, cause it breaks stuff. */
    3. Utilities - These things get used a lot
    ========================================================================== */
 
-/* Clears shit */
+/* Clears elements */
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -454,7 +454,7 @@ margin on the iframe, cause it breaks stuff. */
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
-/* Hides shit */
+/* Hides elements */
 .hidden {
     text-indent: -9999px;
     visibility: hidden;
